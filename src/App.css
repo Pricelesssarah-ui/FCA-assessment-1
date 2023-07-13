@@ -1,0 +1,78 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+}
+
+.header {
+  margin-top: 30px;
+}
+
+.score {
+  margin: 20px 0;
+}
+
+h3 {
+  color: rgb(127, 127, 233);
+  font-size: 24px;
+}
+
+.questionCard {
+  margin: 0 auto;
+  background-color: rgb(28, 20, 64);
+  padding: 30px;
+  border-radius: 16px;
+  color: white;
+  height: auto;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px 12px,
+  rgba(0, 0, 0, 3) 0px 18px 36px -18px;
+  width: 40%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  background-color: rgb(110, 112, 142);
+  padding: 12px;
+  border-radius: 20px;
+  margin-top: 8px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+li:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+.finalResult {
+  margin: 30px auto;
+  background-color:  rgb(28, 20, 64);
+  padding: 16px;
+  border-radius: 16px;
+  color: white;
+  width: 80%;
+  height: auto;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px 12px,
+  rgba(0, 0, 0, 3) 0px 18px 36px -18px;
+  width: 30%;
+}
+
+button {
+  border: none;
+  border-radius: 20px;
+  color: white;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: red;
+}

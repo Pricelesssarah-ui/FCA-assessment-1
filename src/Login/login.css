@@ -1,0 +1,16 @@
+div {
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 30px;
+    color:  rgb(28, 20, 64);
+}
+
+button {
+    width: 50%;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: rgb(110, 112, 142);
+}
