@@ -138,7 +138,7 @@ function App() {
   return (
     <div className="App">
       {/*1. Header*/}
-      <h1 className='header'>HTML QUIZ</h1>
+      <h1 className='header'>WEB DEV QUIZ</h1>
 
       {/*2. Current Score*/}
       <h2 className='score'>Your Current Score: {score}</h2>
