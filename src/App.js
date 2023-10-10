@@ -155,7 +155,7 @@ function App() {
 
       ) : (
 
-          /*3. QuestionCard*/
+          /*3. Question-Card */
         <div className="questionCard">
           <h2>Question {currentQuestion + 1} of {questions.length}</h2>
           <h3>{questions[currentQuestion].quest}</h3>
